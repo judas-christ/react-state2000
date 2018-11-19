@@ -1,5 +1,5 @@
 import React from "react";
-import createStore from "../state2000"; //"state2000";
+import createStore from "state2000";
 
 export function connect(state, actions) {
   const store = createStore(state, actions);
