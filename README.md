@@ -17,7 +17,7 @@ npm install react-state2000 --save
 In `store.js`:
 
 ```js
-import { connect } from "state2000";
+import { connect } from "react-state2000";
 
 const state = {
   count: { value: 0 }
