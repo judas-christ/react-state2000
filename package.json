@@ -1,6 +1,9 @@
 {
   "name": "react-state2000",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=10"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
