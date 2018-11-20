@@ -20,10 +20,17 @@
     "state2000"
   ],
   "dependencies": {
-    "state2000": "^0.0.0"
+    "state2000": "^0.0.1"
   },
   "peerDependencies": {
     "react": "^16.6.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/judas-christ/react-state2000.git"
+  },
+  "bugs": {
+    "url":"https://github.com/judas-christ/react-state2000/issues"
   },
   "author": "judas-christ (https://github.com/judas-christ)",
   "license": "MIT"
