@@ -1,6 +1,6 @@
 {
   "name": "react-state2000",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": ">=10"
   },
@@ -27,7 +27,7 @@
     "state2000"
   ],
   "dependencies": {
-    "state2000": "^0.0.1"
+    "state2000": "^0.0.2"
   },
   "peerDependencies": {
     "react": "^16.6.0"
