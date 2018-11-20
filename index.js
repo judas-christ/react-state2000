@@ -8,13 +8,11 @@ export function connect(state, actions) {
   return function(WrappedComponent) {
     return class extends React.Component {
       render() {
-        return (
-          <WrappedComponent
-            {...this.props}
-            state={storeState}
-            actions={wiredActions}
-          />
-        );
+        return React.createElement(WrappedComponent, {
+          ...this.props,
+          state: storeState,
+          actions: wiredActions
+        });
       }
       componentDidMount() {
         this.unsubscribe = store.subscribe(this.handleChange.bind(this));
